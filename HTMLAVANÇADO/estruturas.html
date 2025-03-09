@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrutura do html</title>
+</head>
+<body>
+    <!--A estrutura de um documento HTML segue o seguinte principio, teremos sempre um cabeçalho e um rodapé o cabeçalho é representado pela tag header e o rodapé pela tag footer-->
+    <!--Dentro da tag header, temos outros elementos obrigatorios, representandos pelas seguintes tags, Nav que endica um menu de navegação, ul para criar uma lista não ordenada, li para criar os item que compoen a lista e a tag a para criação de lincks ancolras, também contamos com a tag img para colocação da logo-->
+    <header>
+        <img src="#" alt="logo">
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">home</a>
+                </li>
+                <li>
+                    <a href="#">historia</a>
+                </li>
+                <li>
+                    <a href="#">contato</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!--Devemos, para melhor estruturar o nosso documento HTML, usar a tag main, ela marca o centro do nosso documento a parte principal desse documento, e todas as outras seções do documento devem vir aqui dentro-->
+    <main>
+        <!--Entra as tags podemos destacar a tag artecle, que serve para destacar dentro do seu documento um outro documento HTML que funcinará aparte do seu documento, como se fosse outro documento só que dentro do documento principal, além dele temos também a tag aside, que serve para ter um documento que se relaciona com o documento principal, mas é uma relação aparte serve para assuntos relacionados.-->
+        <article>
+            Escreva uma artigo
+        </article>
+        <aside>
+            Assunto relacionado ao artigo, outras fontes, ou outro artigo relacionado ao assunto.
+        </aside>
+        <!--Também temos a tag section, que serve basicamente para os assuntos que não se encaixarem nas tags anteriores. Serve para dividir o documentos em blocos de conteúdo. E ainda podemos dividir esses blocos grandes em blocos menores e para isso usamos a tag div, ela é uma tag sem semântica, serve para organizar as informações em partes menores.-->
+        <section>
+            <div>
+                <h1>
+                    Para outros conteúdos
+                </h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident iste possimus dolore rerum. Corrupti earum numquam sed nostrum sit ullam dolores repellat. Odio nisi quia totam optio rerum iusto dicta!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. A, explicabo velit quia mollitia in voluptatem, ex magni nemo porro quisquam excepturi quas officiis ipsum dolor saepe fuga nihil ut fugit!
+                </p>
+            </div>
+            <div>
+                <img src="#" alt="foto">
+            </div>
+        </section>
+    </main>
+    <footer>
+        Rodapé 
+    </footer>
+</body>
+</html>
