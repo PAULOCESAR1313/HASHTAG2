@@ -55,3 +55,27 @@ li
     font-style: italic;
     color: #035276;
 }
+
+.realce-h1
+{
+    font-weight: 700;
+    color: #0588c4;
+}
+
+.realce-p
+{
+    font-weight: 700;
+    color: #0588c4;
+}
+
+.realce-italico
+{
+    font-style: italic;
+    color: #0588c4;
+}
+
+.realce-sublinhado
+{
+    text-decoration: underline;
+    color: #0588c4;
+}
